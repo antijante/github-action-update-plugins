@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Get package
-        uses: generoi/github-action-update-plugins/.github/actions/wccom-package@master
+        uses: antijante/github-action-update-plugins/.github/actions/wccom-package@main
         id: wccom-package
         with:
           access_token: ${{ secrets.ACCESS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
           slug: ${{ inputs.slug }}
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_url: ${{ fromJson(steps.wccom-package.outputs.package).package }}

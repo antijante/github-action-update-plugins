@@ -207,7 +207,7 @@ jobs:
           cat /tmp/changelog.md
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_url: ${{ fromJson(steps.remote.outputs.REMOTE_RESPONSE).download_link }}

@@ -1,5 +1,7 @@
 # github-workflows-plugins
 
+> Antijante copy of [generoi/github-action-update-plugins](https://github.com/generoi/github-action-update-plugins) (MIT), forked at `3f8424e` (2026-08-26). All internal references point at `antijante/github-action-update-plugins@main`, so nothing here runs code from the upstream repo. Pull upstream fixes in by hand when needed.
+
 ## Plugin examples
 
 ### Gravityforms
@@ -17,7 +19,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/gravityforms-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/gravityforms-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -41,7 +43,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/gravityforms-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/gravityforms-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -64,7 +66,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/facetwp-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/facetwp-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -87,7 +89,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/facetwp-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/facetwp-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -114,7 +116,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/edd-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/edd-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -138,7 +140,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/edd-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/edd-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -164,7 +166,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/edd-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/edd-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -191,7 +193,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/acf-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/acf-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
 ```
@@ -215,7 +217,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -238,7 +240,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -261,7 +263,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -284,7 +286,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -307,7 +309,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -330,7 +332,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wccom-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wccom-update.yml@main
     secrets:
       ACCESS_TOKEN: ${{ secrets.WCCOM_ACCESS_TOKEN }}
       ACCESS_TOKEN_SECRET: ${{ secrets.WCCOM_ACCESS_TOKEN_SECRET }}
@@ -356,7 +358,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wpml-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wpml-update.yml@main
     secrets:
       USER_ID: ${{ secrets.USER_ID }}
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
@@ -379,7 +381,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/wpml-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/wpml-update.yml@main
     secrets:
       USER_ID: ${{ secrets.USER_ID }}
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
@@ -404,7 +406,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/markup-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/markup-update.yml@main
     with:
       slug: 'woocommerce-noutopistehaku'
       source_url: https://example.com
@@ -427,7 +429,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/markup-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/markup-update.yml@main
     with:
       slug: 'woocommerce-kuitti'
       source_url: https://example.com
@@ -452,7 +454,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/markup-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/markup-update.yml@main
     with:
       slug: 'woocommerce-smartship-prinetti'
       source_url: https://example.com
@@ -478,7 +480,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/markup-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/markup-update.yml@main
     with:
       slug: 'woocommerce-paytrail'
 ```
@@ -498,7 +500,7 @@ on:
     - cron: '5 4 * * *'
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/multilingualpress-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/multilingualpress-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -523,7 +525,7 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/beaver-builder-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/beaver-builder-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
     with:
@@ -573,7 +575,7 @@ jobs:
 
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_path: /tmp/package.zip
@@ -624,7 +626,7 @@ jobs:
           rm package.zip
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_url: "https://kinsta.com/kinsta-tools/kinsta-mu-plugins.zip"
@@ -669,7 +671,7 @@ jobs:
           rm package.zip
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_url: "https://www.relevanssi.com/update/get_version.php?api_key=${{ secrets.LICENSE_KEY }}&version=${{ env.LATEST_VERSION }}"
@@ -682,10 +684,10 @@ jobs:
 
 ## Automatically rebuild a satis repository
 
-See [generoi/packagist](https://github.com/generoi/packagist) for an example.
+See [antijante/packagist](https://github.com/antijante/packagist) for an example.
 
-1. Add a [job to rebuild satis](https://github.com/generoi/packagist/blob/master/.github/workflows/satis.yml).
-1. Add a [job called to trigger the rebuild](https://github.com/generoi/packagist/blob/master/.github/workflows/update.yml)
+1. Add a [job to rebuild satis](https://github.com/antijante/packagist/blob/main/.github/workflows/build.yml).
+1. Add a [job called to trigger the rebuild](https://github.com/antijante/packagist/blob/main/.github/workflows/update.yml)
 1. Add a job to each repository to trigger the job after a package has been updated
 
 ```yaml
@@ -698,13 +700,13 @@ permissions:
   contents: write
 jobs:
   build:
-    uses: generoi/github-action-update-plugins/.github/workflows/acf-update.yml@master
+    uses: antijante/github-action-update-plugins/.github/workflows/acf-update.yml@main
     secrets:
       LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
   update-satis:
     needs: build
     if: needs.build.outputs.updated == 'true'
-    uses: generoi/packagist/.github/workflows/update.yml@master
+    uses: antijante/packagist/.github/workflows/update.yml@main
     secrets:
       token: ${{ secrets.PACKAGIST_UPDATE_PAT }}
 ```

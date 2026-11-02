@@ -49,7 +49,7 @@ jobs:
           echo "DOWNLOAD_URL=$(echo $PACKAGE_INFO | jq -r '.value.dist.url')" >> $GITHUB_ENV
 
       - name: Update repo
-        uses: generoi/github-action-update-plugins@master
+        uses: antijante/github-action-update-plugins@main
         id: update
         with:
           download_url: ${{ env.DOWNLOAD_URL }}
